@@ -37,17 +37,23 @@
             </div>
             <div class="row">
                 <div class="col-3 align-text-bottom">
-                    <p class="version align-text-bottom">v <?php version() ?></p>
+                    <p class="info version">v <?php version() ?></p>
                 </div>
                 <div class="col-6">
                 </div>
                 <div class="col-3 align-text-bottom">
-                    <p class="docente">Docente: <?php docente() ?></p>
+                    <p class="info docente">Docente: <?php docente() ?></p>
                 </div>
             </div>
 
         </div>
-        
+
+        <div class="lienzo">
+            <div class="lua"></div>
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+        </div>        
 
     </body>
 

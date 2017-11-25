@@ -1,9 +1,44 @@
-header{
-  text-align: center;
-  font-size: 4vh;
+@import url(./estrelas.css);
+
+body{
+  background-color: #1f263b;
+ /*background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);*/
 }
 
-  .version{
-    display: inline-block;
+header{
+  text-align: center;
+  font-size: 2vw;
+  color: #AAF0D1;
+}
+
+  .info{
     text-align: left;
+    font-size: 0.9vw;
   }
+
+  .info.version{
+    color: olive;
+  }
+  
+  .info.docente{
+    color: blue;
+  }
+
+.lienzo{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.lua{
+  position: absolute;
+  right: 10vw;
+  top: 5vh;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 white;
+}

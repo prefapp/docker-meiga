@@ -1,0 +1,67 @@
+.avatar.meiga{
+  background-image: url(/img/meiga.png);
+  background-size: contain;
+  height: 20vh;
+  width: 20vh;
+  position: absolute;
+}
+
+  .avatar.meiga{
+    top: 5vh;
+    left: 5vh;
+    animation-duration: 10s;
+    animation-direction: normal;
+    animation-iteration-count: 1;
+  }  
+
+  .avatar.meiga.esquerda{
+    animation-name: voar;
+  }
+
+  .avatar.meiga.agardar_dereita{
+    transform: scaleX(1);
+    left: 5vh;
+    top: 5vh;
+    transition: transform 1s;
+  }
+
+  .avatar.meiga.agardar_esquerda{
+    transform: scaleX(-1);
+    left: 90%;
+    top: 50vh;
+    transition: transform 1s;
+  }
+
+  .avatar.meiga.dereita{
+    transform: scaleX(-1);
+    animation-name: voar-volta;
+  }
+
+  .avatar.meiga.baixar_dereita{
+    animation-name: baixar_dereita;
+  }
+
+  .avatar.meiga.subir_esquerda{
+    animation-name: subir_esquerda;
+  }
+
+  @keyframes voar{
+    from { top: 5vh; left; 5%}
+    to {top: 50vh; left: 90%}
+  }
+
+  @keyframes voar-volta{
+    from {top: 50vh; left: 90%}
+    to { top: 5vh; left; 5%}
+  }
+
+  @keyframes baixar_dereita{
+    from {top: 5vh}
+    to {top: 90%}
+  }
+
+  @keyframes subir_esquerda{
+    from {top: 90%; left: 5vh}
+    to {top: 50vh; left: 90%}
+  }
+

@@ -50,10 +50,15 @@
 
         <div class="lienzo">
             <div class="lua"></div>
-<div id='stars'></div>
-<div id='stars2'></div>
-<div id='stars3'></div>
+            <div id='stars'></div>
+            <div id='stars2'></div>
+            <div id='stars3'></div>
+
+            <div class="avatar meiga" id="meiga"></div>
+
         </div>        
+
+        <script type="text/javascript" src="js/meiga.js"></script>
 
     </body>
 

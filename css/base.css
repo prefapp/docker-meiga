@@ -1,0 +1,9 @@
+header{
+  text-align: center;
+  font-size: 4vh;
+}
+
+  .version{
+    display: inline-block;
+    text-align: left;
+  }

@@ -1,0 +1,14 @@
+.titulo.error{
+
+  padding-top: 10vh;
+  text-align: center;
+  font-size: 3vw;
+  color: red;
+}
+
+  .detalles.error{
+
+    font-size: 1.5vw;
+    color: red;
+
+  }

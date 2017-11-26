@@ -1,5 +1,12 @@
 <?php
 
+    require("lib/validar_entorno.php");
+
+    //validamos entorno
+    if(!validar_entorno()){
+        header("Location: lib/error.php");
+    }
+    
     define("VERSION", "1.0");
 
     function version(){

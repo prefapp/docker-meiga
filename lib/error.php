@@ -9,7 +9,7 @@
         }
 
         if(!isset($_ENV["CURSO"])){
-            mostrar_error("Falta a configuración do curso")
+            mostrar_error("Falta a configuración do curso");
         }
 
     }

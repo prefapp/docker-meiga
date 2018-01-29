@@ -5,9 +5,13 @@ container_username: frmadem
 env: 
   - PUERTO_ESCUCHA=8000
   - VERSION=1.0
+  - DOCENTE=fran
+  - CURSO=foo
 group_id: 1000
 homedir: /home/frmadem
 image: php
 ports: 
  - 8000:8000
+links:
+# - mysql:mysql
 volumes: []

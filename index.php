@@ -26,6 +26,8 @@
 
         <link rel="stylesheet" href="/css/base.css">
 
+        <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+
     </head>
 
     <body>
@@ -44,12 +46,13 @@
             </div>
             <div class="row">
                 <div class="col-3 align-text-bottom">
-                    <p class="info version">v <?php version() ?></p>
+                    <p class="info docente">Docente: <?php docente() ?></p>
+                    <p class="info docente">Visitas <span id="visitas">0</span></p>
                 </div>
                 <div class="col-6">
                 </div>
                 <div class="col-3 align-text-bottom">
-                    <p class="info docente">Docente: <?php docente() ?></p>
+                    <p class="info version">v <?php version() ?></p>
                 </div>
             </div>
 
@@ -66,6 +69,7 @@
         </div>        
 
         <script type="text/javascript" src="js/meiga.js"></script>
+        <script type="text/javascript" src="js/ajax.js"></script>
 
     </body>
 

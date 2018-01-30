@@ -26,6 +26,18 @@ window.addEventListener("load", function(){
 
   moverMeiga(i++);
 
+  //cargamos os valores
+  meiga_ajax.numVisitas().then((v) => {
+    document.getElementById("visitas").innerHTML = v;
+  })
+
+  //hay unha nova vista
+  meiga_ajax.novaVisita();
+
+  //poñemos en marcha a lúa
+  meiga_ajax.tamLua().then(() => {
+
+  })
 
   function moverMeiga(i){
   

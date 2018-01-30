@@ -5,12 +5,16 @@
 body{
   background-color: #1f263b;
  /*background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);*/
+  font-family: 'Gloria Hallelujah', cursive;
+  color:  #fffff9;
 }
 
 header{
   text-align: center;
   font-size: 2vw;
-  color: #AAF0D1;
+  color:  #fffff9;
+  position: relative;
+  top: 3em;
 }
 
   .info{
@@ -19,11 +23,9 @@ header{
   }
 
   .info.version{
-    color: olive;
   }
   
   .info.docente{
-    color: blue;
   }
 
 .lienzo{

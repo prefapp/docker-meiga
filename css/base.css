@@ -37,7 +37,7 @@ header{
   z-index: -1;
 }
 
-.lua{
+.lua, .sombra_lua{
   position: absolute;
   right: 10vw;
   top: 5vh;
@@ -45,4 +45,10 @@ header{
   height: 200px;
   border-radius: 50%;
   box-shadow: 15px 15px 0 0 white;
+}
+
+#alua.sombra_lua{
+  box-shadow: none ;
+  border-radius: 0;
+  z-index: 100;
 }

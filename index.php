@@ -32,7 +32,7 @@
 
     <body>
 
-        <div class="container">
+        <div class="container" id="crecer">
             <div class="row">
                 <div class="col-3 align-text-bottom">
                 </div>
@@ -58,8 +58,10 @@
 
         </div>
 
+        <div class="sombra_lua" id="alua"></div>
+
         <div class="lienzo">
-            <div class="lua"></div>
+            <div class="lua" id="blua"></div>
             <div id='stars'></div>
             <div id='stars2'></div>
             <div id='stars3'></div>
@@ -70,6 +72,7 @@
 
         <script type="text/javascript" src="js/meiga.js"></script>
         <script type="text/javascript" src="js/ajax.js"></script>
+        <script type="text/javascript" src="js/lua.js"></script>
 
     </body>
 

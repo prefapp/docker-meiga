@@ -50,7 +50,13 @@
 
    public function agrandaLua(){
 
-    $this->consulta("UPDATE meiga SET tam_lua = tam_lua + 1");
+    $this->consulta("UPDATE meiga SET tam_lua = tam_lua + 10");
+
+   }
+
+   public function reiniciaLua(){
+
+    $this->consulta("UPDATE meiga SET tam_lua = 0");
 
    }
 

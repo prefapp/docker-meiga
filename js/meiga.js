@@ -35,9 +35,7 @@ window.addEventListener("load", function(){
   meiga_ajax.novaVisita();
 
   //poñemos en marcha a lúa
-  meiga_ajax.tamLua().then(() => {
-
-  })
+  lua.instalar();
 
   function moverMeiga(i){
   

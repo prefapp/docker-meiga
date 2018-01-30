@@ -15,6 +15,12 @@
 
   }
 
+  meiga_ajax.reiniciaLua = function(){
+
+    return ejecutar('/ajax.php?accion=reinicia_lua');
+
+  }
+ 
   meiga_ajax.agrandaLua = function(){
   
     return ejecutar('/ajax.php?accion=agranda_lua');

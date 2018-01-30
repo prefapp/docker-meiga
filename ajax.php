@@ -23,6 +23,9 @@ else if($accion == "agranda_lua"){
 else if($accion == "tam_lua"){
     $res = $BD->tamLua();
 }
+else if($accion == "reinicia_lua"){
+    $res = $BD->reiniciaLua();
+}
 
 printf($res);
 

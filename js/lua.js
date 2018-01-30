@@ -6,9 +6,12 @@
 
   window.lua.instalar = function(){
 
-    document.getElementById("alua").addEventListener("click", function(){
+    document.getElementById("alua").addEventListener("click", function(e){
 
       meiga_ajax.agrandaLua().then(() => {
+
+
+        e.stopPropagation();
 
         return lua.setTam();
 
@@ -41,7 +44,7 @@
       s.boxShadow = `${15 + t}px 15px 0 white`;
       s.right = `${10 + (t * 0.05)}vw`;
 
-      ss.right = `${10 + (t * 0.025)}vw`;
+      ss.right = `${10 - (t * 0.05)}vw`;
 
     })
 

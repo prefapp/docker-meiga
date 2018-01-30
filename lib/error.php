@@ -42,7 +42,7 @@
             <div class="row">
                 <div class="col-2"></div>
                 <div class="col-8">
-                    <p class="titulo error">Error</p>
+                    <p class="titulo error">Erro</p>
                 </div>
             </div>
 

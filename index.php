@@ -70,6 +70,7 @@
 
         <script type="text/javascript" src="js/meiga.js"></script>
 
+    <div class="fraga"></div>
     </body>
 
 </html>

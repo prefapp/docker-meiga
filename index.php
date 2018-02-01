@@ -14,7 +14,7 @@
     }
 
     function docente(){
-        echo $_ENV["usuario"];
+        echo $_ENV["DOCENTE"];
     }
 
 ?>

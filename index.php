@@ -70,10 +70,13 @@
 
         </div>        
 
+        <div class="fraga"></div>
+
         <script type="text/javascript" src="js/meiga.js"></script>
         <script type="text/javascript" src="js/ajax.js"></script>
         <script type="text/javascript" src="js/lua.js"></script>
 
+    
     </body>
 
 </html>

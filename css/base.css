@@ -52,3 +52,16 @@ header{
   border-radius: 0;
   z-index: 100;
 }
+
+.fraga{
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-image: url("/img/fraga.png");
+  background-repeat: repeat-x;
+  background-size: 60%;
+  background-position: left bottom;
+}
+

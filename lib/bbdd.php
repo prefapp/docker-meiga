@@ -18,7 +18,7 @@
 
         if(!$this->existeTaboa("meiga")){
 
-            printf("Creando tablita\n");
+            #printf("Creando tablita\n");
 
             $this->consulta("CREATE TABLE IF NOT EXISTS meiga (visitas INT, tam_lua INT);");
             $this->consulta("INSERT INTO meiga (visitas, tam_lua) VALUES(0, 0);");
@@ -65,7 +65,7 @@
             $res = $this->mysqli->query($sql);
 
             if($res === TRUE){
-                printf("$sql [ok]\n");
+                #printf("$sql [ok]\n");
                 return $res;
             }
             else{

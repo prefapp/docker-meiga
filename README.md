@@ -2,6 +2,9 @@
 
 Proxecto de ensino de tecnoloxías de containers
 
+# Debuxos e ilustracións
+Arte a cargo de [begominola](https://shop.begominola.com/). 
+
 # License
 
 Copyright (C) 2018, Francisco Maseda and Javier Gómez

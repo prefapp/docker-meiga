@@ -1,0 +1,26 @@
+version: "3.7"
+
+services:
+  app:
+    build: ../
+    ports:
+      - '8081:8080'
+    environment:
+      CURSO: ${CURSO}
+      DOCENTE: ${DOCENTE}
+      MYSQL_HOST: bbdd
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+    volumes:
+      - '../:/home/app'
+
+  bbdd:
+    image: mysql:5.7
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+
+
+
+
